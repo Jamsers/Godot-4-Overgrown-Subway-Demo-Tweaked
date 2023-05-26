@@ -11,7 +11,6 @@ sky = SubResource("Sky_bgch7")
 tonemap_mode = 3
 tonemap_exposure = 2.5
 tonemap_white = 8.0
-ssao_enabled = true
 ssil_enabled = true
 sdfgi_enabled = true
 sdfgi_use_occlusion = true

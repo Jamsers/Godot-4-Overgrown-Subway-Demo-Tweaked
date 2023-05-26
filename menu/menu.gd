@@ -23,12 +23,12 @@ func _on_ssil_button_toggled(_button_pressed):
 	env.set("ssil_enabled", !env.get("ssil_enabled"))
 
 
-func _on_ssao_button_toggled(_button_pressed):
-	env.set("ssao_enabled", !env.get("ssao_enabled"))
-
-
 func _on_glow_toggled(_button_pressed):
 	env.set("glow_enabled", !env.get("glow_enabled"))
+
+
+func _on_SDFGI_toggled(_button_pressed):
+	env.set("sdfgi_enabled", !env.get("sdfgi_enabled"))
 
 
 func _on_resume_pressed():
