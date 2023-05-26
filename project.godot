@@ -23,6 +23,7 @@ ControlSettings="*res://ControlSettings.gd"
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/vsync/vsync_mode=0
 
 [editor_plugins]
 
@@ -154,5 +155,5 @@ lights_and_shadows/directional_shadow/soft_shadow_filter_quality=5
 textures/default_filters/anisotropic_filtering_level=3
 textures/decals/filter=5
 textures/light_projectors/filter=5
-anti_aliasing/quality/msaa_3d=1
+anti_aliasing/quality/use_taa=true
 occlusion_culling/use_occlusion_culling=true

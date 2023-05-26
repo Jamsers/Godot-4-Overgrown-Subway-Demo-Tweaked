@@ -307,6 +307,7 @@ albedo_texture = ExtResource("29_ninr2")
 roughness_texture = ExtResource("31_1de8c")
 normal_enabled = true
 normal_texture = ExtResource("30_5xkf8")
+texture_filter = 5
 
 [sub_resource type="QuadOccluder3D" id="QuadOccluder3D_85mn8"]
 size = Vector2(5.56097, 6.00861)
