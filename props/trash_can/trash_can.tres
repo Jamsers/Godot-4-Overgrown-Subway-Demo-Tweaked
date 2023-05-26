@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://snewygdtkqw1"]
+
+[ext_resource type="Texture2D" uid="uid://bdtsndtvgqr8v" path="res://props/trash_can/textures/trashcan_DefaultMaterial_BaseColor.png" id="1_bgjk3"]
+[ext_resource type="Texture2D" uid="uid://cmdwiqlnditjr" path="res://props/trash_can/textures/trashcan_DefaultMaterial_Roughness.png" id="2_603ov"]
+[ext_resource type="Texture2D" uid="uid://hleiaff4s70h" path="res://props/trash_can/textures/trashcan_DefaultMaterial_Normal.png" id="3_yxfgn"]
+
+[resource]
+resource_name = "trash_can"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_bgjk3")
+metallic_texture = ExtResource("2_603ov")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_603ov")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_yxfgn")
+texture_filter = 5

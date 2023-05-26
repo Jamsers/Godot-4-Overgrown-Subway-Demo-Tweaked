@@ -28,7 +28,74 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"21_street": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/21_street.tres"
+},
+"bench": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/bench.tres"
+},
+"black_cable": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/black_cable.tres"
+},
+"broken_tiles": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/broken_tiles.tres"
+},
+"corrugated_metal": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/corrugated_metal.tres"
+},
+"fabric": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/fabric.tres"
+},
+"glass": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/glass.tres"
+},
+"gravel": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/gravel.tres"
+},
+"mossy_concrete": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/mossy_concrete.tres"
+},
+"rope": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/rope.tres"
+},
+"rough_concrete": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/rough_concrete.tres"
+},
+"rough_wood": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/rough_wood.tres"
+},
+"rusty_steel": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/rusty_steel.tres"
+},
+"small_tiles": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/small_tiles.tres"
+},
+"tarp": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/tarp.tres"
+},
+"train_car_new": {
+"use_external/enabled": true,
+"use_external/path": "res://subway/train_car_new.tres"
+}
+}
+}
 gltf/embedded_image_handling=1
 blender/nodes/visible=1
 blender/nodes/punctual_lights=true

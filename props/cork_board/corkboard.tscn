@@ -16,11 +16,13 @@ metallic = 1.0
 metallic_texture = ExtResource("3_y1l5k")
 normal_enabled = true
 normal_texture = ExtResource("4_yud15")
+texture_filter = 5
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_upcfo"]
 transparency = 1
 albedo_color = Color(0.713726, 0.780392, 0.811765, 0.2)
 roughness_texture = ExtResource("5_hkav8")
+texture_filter = 5
 
 [node name="corkboard" instance=ExtResource("1_2l0bw")]
 

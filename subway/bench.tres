@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://dvf55w4pl1j4u"]
+
+[ext_resource type="Texture2D" uid="uid://cnol0i51sj6t" path="res://subway/textures/bench/bench_DefaultMaterial_BaseColor.png" id="1_r4d7m"]
+[ext_resource type="Texture2D" uid="uid://bdfwqwaoe006y" path="res://subway/textures/bench/bench_DefaultMaterial_Roughness.png" id="2_6xblh"]
+[ext_resource type="Texture2D" uid="uid://dbaavgawrnmr4" path="res://subway/textures/bench/bench_DefaultMaterial_Normal.png" id="3_wifve"]
+
+[resource]
+resource_name = "bench"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_r4d7m")
+metallic_texture = ExtResource("2_6xblh")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_6xblh")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_wifve")
+texture_filter = 5

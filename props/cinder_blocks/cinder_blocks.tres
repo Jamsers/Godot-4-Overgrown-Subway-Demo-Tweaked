@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://dhsr7m8rrgb0e"]
+
+[ext_resource type="Texture2D" uid="uid://cpberkn7lp5ur" path="res://props/cinder_blocks/textures/cinder_block_albedo.png" id="1_fi25f"]
+[ext_resource type="Texture2D" uid="uid://bifx118qyugnm" path="res://props/cinder_blocks/textures/cinder_blocks_normal.png" id="2_wmqwc"]
+
+[resource]
+resource_name = "cinder_blocks"
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_fi25f")
+roughness = 0.809091
+normal_enabled = true
+normal_texture = ExtResource("2_wmqwc")
+texture_filter = 5

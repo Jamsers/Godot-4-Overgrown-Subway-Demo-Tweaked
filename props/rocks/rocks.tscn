@@ -8,6 +8,7 @@
 albedo_texture = ExtResource("2_d1rcp")
 normal_enabled = true
 normal_texture = ExtResource("3_dnb8l")
+texture_filter = 5
 
 [node name="rocks" type="Node3D"]
 

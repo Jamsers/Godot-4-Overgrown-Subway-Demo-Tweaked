@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c5w85w3rq8w85"]
+
+[resource]
+resource_name = "cork_board_dirty"
+vertex_color_use_as_albedo = true
+metallic = 1.0
+texture_filter = 5

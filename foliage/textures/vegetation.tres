@@ -13,3 +13,4 @@ albedo_texture = ExtResource("1_a8pem")
 orm_texture = ExtResource("3_x51jl")
 normal_enabled = true
 normal_texture = ExtResource("2_iih8n")
+texture_filter = 5

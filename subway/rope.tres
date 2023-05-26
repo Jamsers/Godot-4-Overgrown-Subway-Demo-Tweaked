@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://ceb2t2b8201yp"]
+
+[ext_resource type="Texture2D" uid="uid://bqftya8a8pkg2" path="res://subway/textures/rope/Rope001_1K_Color.png" id="1_erlma"]
+[ext_resource type="Texture2D" uid="uid://csaquumuxocxp" path="res://subway/textures/rope/Rope001_1K_Roughness.png" id="2_xgug1"]
+[ext_resource type="Texture2D" uid="uid://b5i3nf2jxirq5" path="res://subway/textures/rope/Rope001_1K_NormalGL.png" id="3_hn2a3"]
+
+[resource]
+resource_name = "rope"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_erlma")
+metallic_texture = ExtResource("2_xgug1")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_xgug1")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_hn2a3")
+texture_filter = 5

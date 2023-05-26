@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://bcmvfrgnop0lw"]
+
+[ext_resource type="Texture2D" uid="uid://cmylwo5t5ci7i" path="res://subway/textures/cliff/aerial_rocks_02_diff_2k.png" id="1_vxmka"]
+[ext_resource type="Texture2D" uid="uid://3rc7fob8f31h" path="res://subway/textures/cliff/aerial_rocks_02_rough_2k.png" id="2_ho86x"]
+[ext_resource type="Texture2D" uid="uid://cwflsrxuvga4j" path="res://subway/textures/cliff/aerial_rocks_02_nor_gl_2k.png" id="3_3kuea"]
+
+[resource]
+resource_name = "cliff"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_vxmka")
+metallic_texture = ExtResource("2_ho86x")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_ho86x")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_3kuea")
+texture_filter = 5
